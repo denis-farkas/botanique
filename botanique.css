@@ -1,0 +1,152 @@
+/* PAGE */
+.container {
+  font-family: "Libre Baskerville", serif;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  margin: auto;
+  background: center center fixed url(img/atom-wallpapers-1.png);
+  background: cover;
+}
+/* MAIN PAGE VS STUDIO */
+#cont_main {
+  display: flex;
+  flex-direction: column;
+}
+#cont_main h1 {
+  text-align: center;
+  text-shadow: 5px 5px 10px rgb(255, 255, 255);
+  color: rgb(255, 255, 255);
+  text-shadow: 5px 5px 30px rgb(39, 163, 55);
+}
+.bloc {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  text-shadow: 5px 5px 30px rgb(39, 163, 55);
+  margin: 20px 0;
+}
+
+.article_vs {
+  width: 250px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: rgb(39, 163, 55) 5px solid;
+  background: center center fixed
+    url(img/grand-feuillage-feuille-tropicale-texture-vert-fonce-fond-nature-abstraite_1484-1608.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 20px;
+  border-style: double;
+  box-shadow: 10px 10px 30px black;
+  padding: 10px;
+  text-shadow: 2px 2px 5px rgb(0, 0, 0);
+  text-align: center;
+  color: rgb(110, 168, 110);
+  text-shadow: 2px 2px 5px rgb(0, 0, 0);
+}
+
+.article_vs h2 {
+  padding: 10px;
+  background: rgba(0, 0, 0, 0.4);
+  border: 5px solid rgb(39, 163, 55);
+  border-style: double;
+  color: white;
+  text-align: center;
+}
+
+.article_vs div img {
+  width: 100px;
+  opacity: 0.5;
+}
+
+#bloc_bot {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: 100%;
+}
+#bloc_bot p {
+  text-align: center;
+  color: rgb(110, 168, 110);
+  text-shadow: 2px 2px 5px rgb(0, 0, 0);
+  width: 100%;
+}
+
+.img_box img {
+  width: 300px;
+  margin: 20px 10px;
+}
+.img_box img:hover {
+  transform: scale(2.2);
+  transition: 2s;
+}
+
+/* HEADER */
+#cont_head {
+  width: 100%;
+  height: 70px;
+  background-color: rgba(0, 0, 0, 0.6);
+  display: flex;
+  align-items: center;
+  border-bottom: 5px solid rgb(39, 163, 55);
+  border-style: double;
+  box-shadow: 5px 5px 30px black;
+  margin-bottom: 50px;
+}
+#cont_head h1 {
+  font-size: 30px;
+  margin-left: 20px;
+  color: rgb(255, 255, 255);
+  text-shadow: 5px 5px 30px rgb(143, 250, 158);
+  text-shadow: 2px 2px 10px whitesmoke;
+}
+.menu {
+  margin: 0 0 0 auto;
+  width: auto;
+}
+.menu a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  margin: 0 30px;
+  font-size: 15px;
+  opacity: 0.5;
+  font-size: 20px;
+}
+.menu a:hover {
+  color: rgb(142, 202, 142);
+  text-shadow: 5px 5px 30px rgb(39, 163, 55);
+  opacity: 1;
+  transition: 1s;
+}
+
+/* FOOTER */
+#cont_foot {
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+  width: 100%;
+  text-align: center;
+  color: rgb(110, 168, 110);
+  text-shadow: 2px 2px 5px rgb(0, 0, 0);
+  box-shadow: 5px 5px 30px black;
+  background-color: rgba(0, 0, 0, 0.4);
+  border-top: 5px solid rgb(39, 163, 55);
+  border-style: double;
+}
+#cont_foot a {
+  margin-top: 20px;
+  text-decoration: none;
+  color: rgb(142, 202, 142);
+  font-weight: bolder;
+  font-size: 20px;
+  opacity: 0.6;
+}
+#cont_foot a:hover {
+  text-shadow: 5px 5px 20px rgb(255, 255, 255);
+  transition: 1s;
+  opacity: 1;
+  transform: scale(1.3);
+}
