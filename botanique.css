@@ -35,8 +35,8 @@
   width: 80%;
   height: auto;
   display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
+  flex-wrap: wrap;
+  justify-content: space-around;
   border: rgb(95, 172, 88) 2px solid;
   margin: 20px auto;
   box-shadow: 10px 10px 30px black;
