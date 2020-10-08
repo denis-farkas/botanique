@@ -3,7 +3,7 @@
   font-family: "Libre Baskerville", serif;
   display: flex;
   flex-direction: column;
-  height: 100vh;
+  height: 200vh;
   margin: auto;
   background: center center fixed url(img/atom-wallpapers-1.png);
   background: cover;
@@ -23,7 +23,6 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
-  text-shadow: 5px 5px 30px rgb(39, 163, 55);
   margin: 20px 0;
 }
 
