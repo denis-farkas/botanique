@@ -6,6 +6,7 @@
   justify-content: space-between;
   height: 200vh;
   margin: auto;
+  background-color: rgba(95, 172, 88, .4);
 }
 /* SECTION */
 .sec_top{
@@ -84,17 +85,19 @@
 
 /* HEADER */
 #cont_head {
-  width: 100%;
-  height: 50px;
+  width: auto;
+  padding: 10px 0;
   background-color: rgba(0, 0, 0, 0.6);
   display: flex;
   align-items: center;
   border-bottom: 2px solid rgb(95, 172, 88);
   box-shadow: 5px 5px 30px black;
   margin-bottom: 20px;
-  background: center center fixed
+  background: center center fixed no-repeat
   url(img/presentation/grand-feuillage-feuille-tropicale-texture-vert-fonce-fond-nature-abstraite_1484-1608.jpg);
+background-size: cover ;
 }
+
 #cont_head h1 {
   font-size: 25px;
   margin-left: 20px;
