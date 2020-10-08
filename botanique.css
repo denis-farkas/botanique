@@ -31,7 +31,19 @@
 
 }
 
-
+.bloc-bis {
+  width: 80%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  border: rgb(95, 172, 88) 2px solid;
+  margin: 20px auto;
+  box-shadow: 10px 10px 30px black;
+  padding: 20px;
+  text-align: center;
+  color: black;
+}
 
 .bloc {
   background:center center no-repeat url(img/presentation/foret.jpg);
