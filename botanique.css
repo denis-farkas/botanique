@@ -3,6 +3,7 @@
   font-family: "Libre Baskerville", serif;
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   height: 200vh;
   margin: auto;
 }
@@ -12,12 +13,15 @@
   border: 2px solid rgb(95, 172, 88);
   background:rgba(0, 0, 0, 0.7);
   padding:20px;
-  margin: 50px;
-  text-align: justify;
+  margin: 20px;
   box-shadow: 5px 5px 10px black;
-
 }
-*
+.sec_top p{
+      text-align: justify;
+      font-size: 20px;
+      font-weight: 500;
+      padding: 10px;
+    }
 .sec_main {
   display: flex;
   flex-wrap: wrap;
@@ -25,6 +29,8 @@
   margin: 20px 0;
 
 }
+
+
 
 .bloc {
   background:center center no-repeat url(img/presentation/foret.jpg);
@@ -48,12 +54,15 @@
   border: 2px solid rgb(95, 172, 88);
   margin-bottom: 30px;
   box-shadow: 5px 5px 10px black;
+  
 }
 /* TITLE CARDS */
 .article_vs h2 {
   color: white;
   font-size: 50px;
   margin:auto auto;
+  color: rgb(39, 163, 55);
+  text-shadow: 2px 2px 5px black ;
 }
 /* BG CARDS  */
 .plantes_bg {
@@ -82,7 +91,7 @@
   align-items: center;
   border-bottom: 2px solid rgb(95, 172, 88);
   box-shadow: 5px 5px 30px black;
-  margin-bottom: 50px;
+  margin-bottom: 20px;
   background: center center fixed
   url(img/presentation/grand-feuillage-feuille-tropicale-texture-vert-fonce-fond-nature-abstraite_1484-1608.jpg);
 }
@@ -112,10 +121,9 @@
 }
 
 /* FOOTER */
-#cont_foot {
-  display: flex;
-  flex-direction: column;
-  margin-top: 50px;
+.sec_foot{
+  margin-top: 20px;
+  padding: 20px 0;
   width: 100%;
   text-align: center;
   color: white;
@@ -126,17 +134,77 @@
   border-top: 2px solid rgb(95, 172, 88);
   
 }
-#cont_foot a {
-  margin-top: 20px;
-  text-decoration: none;
-  color: rgb(142, 202, 142);
-  font-weight: bolder;
-  font-size: 20px;
-  opacity: 0.6;
+
+/*----------------------------- DENIS------------------------------- */
+
+.trait-green {
+    border: 0;
+    border-bottom: solid 3px #29941b;
+    display: inline-flex;
+    margin: 0.5em 0;
+    width:90%;
 }
-#cont_foot a:hover {
-  text-shadow: 5px 5px 20px rgb(255, 255, 255);
-  transition: 1s;
-  opacity: 1;
-  transform: scale(1.3);
+
+
+
+.bloc-box {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 500px;
+    box-sizing: border-box;
+    padding: 0 0 0 0.5em;
+    text-align: justify;
 }
+
+.bloc-box-big {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 1000px;
+    box-sizing: border-box;
+    padding: 0 0 0 0.5em;
+    text-align: justify;
+}
+
+.image.left{
+    float:left;
+    padding: 0 1.5em 1em 0;
+    top: 0.25em;
+}
+
+.article_vs_bis {
+    width: 200px;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    border: rgb(39, 163, 55) 2px solid;
+    border-radius: 50px;
+    background-color: bisque;
+    margin: 5px;
+    box-shadow: 5px 5px 5px black;
+    padding: 5px;
+    text-align: center;
+    color: rgb(128, 62, 8);
+    
+  }
+
+  .justific {
+      width: 80%;
+      text-align: justify;
+      font-size: 20px;
+      font-weight: 500;
+  }
+
+  .justific-little {
+        text-align: center;
+        font-size: 18px;
+        font-weight: 300;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        line-height: 1px;
+    }
+
+    
