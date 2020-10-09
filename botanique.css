@@ -45,14 +45,14 @@
 }
 
 .bloc-bis {
-  background:rgba(0, 0, 0, 0.548);
+  background:rgb(255, 255, 255);
   width: 80%;
   height: auto;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
   border: rgb(95, 172, 88) 2px solid;
-  margin: 20px auto;
+  margin: 20px auto;S
   box-shadow: 10px 10px 30px black;
   padding: 20px;
   text-align: center;
