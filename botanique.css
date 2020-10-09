@@ -8,6 +8,19 @@
   margin: auto;
   background-color: rgba(95, 172, 88, .4);
 }
+.container_bis
+{
+   background: url(img/presentation/foret.jpg) no-repeat center center fixed ;
+  background-size: cover;
+  font-family: "Libre Baskerville", serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 200vh;
+  margin: auto;
+  background-color: rgba(95, 172, 88, .4);
+
+}
 /* SECTION */
 .sec_top{
   color: white;
@@ -32,6 +45,7 @@
 }
 
 .bloc-bis {
+  background:rgba(0, 0, 0, 0.548);
   width: 80%;
   height: auto;
   display: flex;
@@ -64,6 +78,7 @@
 .article_vs{
   width: 200px;
   height: 300px;
+  padding: 0 5px;
   border: 2px solid rgb(95, 172, 88);
   margin-bottom: 30px;
   box-shadow: 5px 5px 10px black;
@@ -199,7 +214,7 @@ background-size: cover ;
     border: rgb(39, 163, 55) 2px solid;
     border-radius: 50px;
     background-color: bisque;
-    margin: 5px;
+    margin: 5px 5px 15px 5px;
     box-shadow: 5px 5px 5px black;
     padding: 5px;
     text-align: center;
