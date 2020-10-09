@@ -131,6 +131,19 @@ background-size: cover ;
   color: rgb(255, 255, 255);
 
 }
+
+#cont_head a{
+  text-decoration: none;
+  text-shadow: 2px 2px 5px black;
+  opacity:  .7;
+}
+#cont_head h1:hover{
+  text-decoration: none;
+  text-shadow: 2px 2px 5px black;
+  text-shadow: 5px 5px 10px rgb(39, 163, 55);
+  opacity: 1;
+  transition: 1s;
+}
 .menu {
   margin: 0 0 0 auto;
   width: auto;
