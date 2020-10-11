@@ -250,4 +250,8 @@ background-size: cover ;
         line-height: 1px;
     }
 
+    a{
+      text-decoration: none;
+    }
+
     
